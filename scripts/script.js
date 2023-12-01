@@ -68,9 +68,9 @@ function addResultCont(cLoc, cCui, cPrice, cDist, cNum) {
   const settings = {
     async: true,
     crossDomain: true,
-    url: `https://api.yelp.com/v3/businesses/search?location=${cLoc}&term=${cCui}&radius=${cDist}&categories=&price=${cPrice}&sort_by=best_match&limit=${cNum}`,
+    url: `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?location=${cLoc}&term=${cCui}&radius=${cDist}&categories=&price=${cPrice}&sort_by=best_match&limit=${cNum}`,
     method: 'GET',
-    // mode: 'no-cors',
+    mode: 'no-cors',
     headers: {
       accept: 'application/json',
       Authorization: 'Bearer c5oRR4lYpBr5vAR3bmBeaikZaqZDCS_Tfl7nL7no6UN8rZarajvJ5AdHNENTk-hFGqRAU2ELrYZs0H-Bo6CwNR1CL4g8FRqpUXxWD7IhyffcYSOSp1_sQnzoJfg1ZHYx'

@@ -56,7 +56,7 @@ h1 {
   color: white;
   text-transform: uppercase;
   padding: 1px;
-  font-family: sans-serif;
+  font-family: 'Raleway', cursive;
   font-weight: 100;
   position: relative;
   background: linear-gradient(to right, black, #eee, black);
@@ -85,7 +85,7 @@ h1 a {
 h3 {
   color: white;
   padding: 20px;
-  font-family: sans-serif;
+  font-family: 'Raleway', cursive;
 }
 
 h5 {
