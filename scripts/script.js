@@ -61,7 +61,7 @@ startOverBtn.addEventListener("click", () => {
 
 // create result container function
 async function addResultCont(cLoc, cCui, cPrice, cDist, cNum) {
-	const url = `http://localhost:3000/yelpProxy?location=${cLoc}&term=${cCui}&radius=${cDist}&categories=&price=${cPrice}&sort_by=best_match&limit=${cNum}`;
+	const url = `https://xhipegtiqi.execute-api.us-west-2.amazonaws.com/wte4dProxy?location=${cLoc}&term=${cCui}&radius=${cDist}&categories=&price=${cPrice}&sort_by=best_match&limit=${cNum}`;
 
 	const options = {
 		method: "GET",
