@@ -46,3 +46,4 @@ Thumbs.db
 # Testing
 server.js
 package.json
+package-lock.json
