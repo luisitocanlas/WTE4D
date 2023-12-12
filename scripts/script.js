@@ -102,7 +102,8 @@ async function addResultCont(cLoc, cCui, cPrice, cDist, cNum) {
 			card.setAttribute("id", name);
 			card.setAttribute(
 				"class",
-				"card flex-row justify-content-between align-items-center"
+				"card"
+				// "card flex-row justify-content-between align-items-center"
 			);
 
 			// create card contents
