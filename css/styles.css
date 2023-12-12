@@ -245,4 +245,8 @@ option {
 		flex-direction: column;
 		max-height: 100vh;
 	}
+
+	.open {
+		margin: 0;
+	}
 }
